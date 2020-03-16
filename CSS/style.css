@@ -1,0 +1,111 @@
+body{
+    font: 15px/1.5 Arial,Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #e6e6ff;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #556c99;
+    color: #ffffff;
+    padding: 20px;
+    min-height: 70px;
+    border-bottom: #4463a1 3px solid;
+}
+header a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin : 0 px;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .highlight , header .current a{
+    color: #09245a;
+    font-weight: bold;
+}
+header a:hover{
+    color: rgb(100, 20, 20);
+    font-weight: bold;
+}
+#showcase{
+    min-height: 550px;
+    background: url('../img/bg1.jpg') no-repeat 0 10px;
+    width: 100%;
+    text-align: center;
+    color: #00b377;
+    background-size: cover;
+    
+}
+#showcase h1{
+    margin-top: 30px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+#getICT{
+    padding: 15px;
+    color: #d0d6d4;
+    background: #4fb391
+}
+#getICT h1{
+    float: left;
+}
+#getICT form{
+    float: right;
+    margin-top: 15px
+}
+#getICT input[type='email']{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button1{
+    height: 38px;
+    background: #3358a3;
+    border: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff
+}
+#training{
+    margin-top: 20px;
+}
+#training .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#training .box img{
+    width: 90px;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #4fb391;
+    text-align: center;
+}
